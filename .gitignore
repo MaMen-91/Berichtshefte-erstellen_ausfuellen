@@ -1,0 +1,39 @@
+# ---------------------------------------------------------------
+# Personenbezogene Daten - gehoeren NICHT ins Repository
+# ---------------------------------------------------------------
+
+# Klassenbuch-PDFs (Namen von Dozenten, Massnahmenummern)
+Klassenbuch/
+
+# Erzeugte Monatsordner mit den ausgefuellten Berichtsheften
+[0-9][0-9]_[0-9][0-9][0-9][0-9] - */
+
+# Unterschrift und deren Zwischenschritte
+unterschrift.png
+unterschrift.jpg
+screenshot*.png
+
+# Word-Sicherungsdateien
+~$*
+
+# ---------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# ---------------------------------------------------------------
+# Java (falls die Portierung mit ins Repository soll)
+# ---------------------------------------------------------------
+*.class
+*.jar
+
+# ---------------------------------------------------------------
+# Betriebssystem / Editor
+# ---------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
