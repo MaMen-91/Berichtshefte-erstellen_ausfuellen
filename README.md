@@ -25,6 +25,9 @@ Unterschriften-Screenshots transparent und schneidet ihn zu.
 
 ## Voraussetzungen
 
+Damit die Vorlage auch in den Ordnern deinen Namen, Klasse etc. hat, muss das in der 
+Blanko-Datei ausgefüllt sein.
+
 ```
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1     # Windows, unter Linux/macOS: source .venv/bin/activate
